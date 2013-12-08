@@ -1,0 +1,16 @@
+name: TotemGame
+version: 0.9
+main: ovski.minecraft.plugin.totem.TotemPlugin
+commands:
+    start:
+        description: start a game
+        usage: /start
+    team:
+        description: set up teams
+        usage: /team
+    spawn:
+        description: teleportation at spawn
+        usage: /spawn
+    scores:
+        description: info about the score of the ongoing game
+        usage: /scores
